@@ -1,0 +1,7 @@
+jobs:
+  - expr: '*/2 * * * *'
+    name: 'job-1'
+    command:
+      type: http
+      method: GET
+      target: 'http://baidu.com'
